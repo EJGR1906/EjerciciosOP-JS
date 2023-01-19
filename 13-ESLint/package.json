@@ -1,13 +1,13 @@
 {
-  "name": "13-eslint",
+  "name": "ejercicio-13",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ejercicio de openbootcamp con ESLint",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .", 
+    "lint-fix": "eslint --fix ."
   },
-  "keywords": [],
-  "author": "",
+  "author": "Eduardo Gonzalez",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.32.0"
