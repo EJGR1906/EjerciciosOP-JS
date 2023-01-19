@@ -1,24 +1,15 @@
-class Persona {
-    //Private -> #
+class Estudiante {
     #nombre;
-    #edad;
+    #asignaturas = ["Javascript", "HTML", "CSS"];
 
-    //Protected -> _
-    _isDeveloper = true;
-    constructor(nom, edad) {
-        this.#nombre = nom;
-        this.#edad = edad;
+    constructor(nombre) {
+        this.#nombre = nombre;
     }
-    saludo() {
-        console.log(
-            `Hola mi nombre es ${this.#nombre} tengo ${this.#edad} años`
-        );
-    }
-    nombre() {
-        return this.#nombre;
+    obtenDatos() {
+        return { Nombre: this.#nombre, Asignaturas: this.#asignaturas };
     }
 }
 
-const persona = new Persona("Eduardo", 21);
-console.log(persona.nombre());
-persona.saludo();
+const primer_estudiante = new Estudiante("Eduardo");
+
+console.log(primer_estudiante.obtenDatos());
