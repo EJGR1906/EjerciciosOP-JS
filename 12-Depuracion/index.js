@@ -2,6 +2,7 @@ function Fibonacci(num) {
     let a = 0,
         b = 1,
         array = [a, b];
+
     for (let i = 1; array[i] <= num; i++) {
         if (a > b) {
             b += a;
