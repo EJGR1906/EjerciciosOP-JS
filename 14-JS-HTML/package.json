@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio_14",
+  "version": "1.0.0",
+  "description": "Ejercicio de Gestion de eventos Javascript con HTML",
+  "main": "index.js",
+  "scripts": {
+    "server": "http-server ."
+  },
+  "author": "Eduardo Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
