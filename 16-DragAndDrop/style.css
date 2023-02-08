@@ -1,0 +1,19 @@
+.seccion {
+    background-color: darkcyan;
+    padding: 1rem;
+    margin: 1rem;
+}
+.seccion#papelera {
+    display: flex;
+    justify-content: center;
+    width: 5rem;
+}
+
+p {
+    background-color: white;
+    padding: 1rem;
+}
+
+.dragging {
+    opacity: 0.3;
+}
